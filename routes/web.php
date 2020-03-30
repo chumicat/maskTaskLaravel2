@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Resume as Resume;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// ITEC 
 Route::get('/maskTask', 'MaskTaskController@search');
+Route::get('/resumeTest', function () {});
+//Route::get('resumes', 'ResumeController@index');
+Route::resource('resumes', 'ResumeController');
