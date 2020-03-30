@@ -59,7 +59,7 @@ const FILE_NAME = "maskdata.csv";
  * 
  * @OA\ExternalDocumentation(
  *     description="To the project->",
- *     url="https://github.com/chumicat/maskTaskLaravel"
+ *     url="https://github.com/chumicat/maskTaskLaravel2"
  * )
  */
 
